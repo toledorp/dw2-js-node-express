@@ -7,12 +7,23 @@ Let : Utilize quando for necessário reatribuir o valor da variável (declaraç�
 Const : Não consegue reatribuir o valor. O valor fica fixo. Utilize quando nãop precisdar reatribuir o valor da variavel
         Ex. const cidade = "registro" - OK 
             const cidade = "pariquera" - não pode, o vlaor não pode ser reatribuido
+        Obs. Tem que declarar e atribuir o valor
+*/
 
+/*
+var nome = "rogerio"
+var nome = "pupo"
+let cidade = "registro"
+let cidade = "pariquera" // não pode
+let endereco
+endereco = "Rua A"
+const idade  // não pode
+const idade = 18
+idade = 20 // não pode
 */
 
 
 //Tipos de funções
-
 // Função Simples
 function showMessage(){
     document.write("<h2>Olá! Bem-vindo! Essa é sua primeira função!</h2>")
