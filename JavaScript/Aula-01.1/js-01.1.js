@@ -22,13 +22,22 @@ const idade = 18
 idade = 20 // não pode
 */
 
-
 //Tipos de funções
 // Função Simples
-function showMessage(){
-    document.write("<h2>Olá! Bem-vindo! Essa é sua primeira função!</h2>")
+const message = "<h2>Ola! Bem-vindo! Essa é sua primeira função!!</h2>";
+function showMessage() {
+  document.write(message);
 }
 //Invocando a função
 showMessage();
 
+//Função com Parametros
+const user = "Rogerio Pupo";
 
+function userMessage(user){
+    //essa função recebe um parametro
+    document.write(`<h3>O que deseja fazer hoje, ${user} ?</h3>`)
+    //${} = Template Strings / Literal Strings
+    //è usado para inserir variaveis dentro do Strings (crases)
+}
+userMessage(user)
