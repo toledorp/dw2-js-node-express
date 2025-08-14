@@ -12,3 +12,8 @@ products.forEach(produto => {
     document.write(`<p>${produto}</p>`)
 })
 
+document.write(`<p>Mostrando os indices e valores com forEach</p>`)
+products.forEach((produto, i) => {
+    document.write(`<p>${i + 1} - ${produto}</p>`)
+})
+
