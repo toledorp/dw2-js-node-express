@@ -7,4 +7,8 @@ document.write(typeof(products))
 document.write(`<p>Exibindo um elemento do arrays através do indice:</p>`)
 document.write(`<p>${products[3]}</p>`)
 
+document.write(`<p>Percorrendo um array através de um forEach</p>`)
+products.forEach(produto => {
+    document.write(`<p>${produto}</p>`)
+})
 
